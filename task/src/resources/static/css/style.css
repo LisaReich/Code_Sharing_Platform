@@ -1,0 +1,14 @@
+#load_date {
+    color: green;
+}
+
+#code_snippet {
+    border: 1px solid black;
+    background-color: lightgray;
+    width: 50vw;
+    height: 33vh;
+}
+
+#send_button {
+    display: block;
+}

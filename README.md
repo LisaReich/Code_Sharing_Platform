@@ -3,8 +3,8 @@
 Server development on Spring Boot and some basics in Web-programming such as HTML, CSS, and JS. Code sharing platform is a web service that can help you share a piece of code with other programmers. The main feature of this service is that it is supposed to be accessible only locally, not via the Internet.
 ## Features
 - Two types of interfaces: API and web interface
-- The API interface return data as ```JSON```
-- The web interface use ```HTML```, ```JS```, and ```CSS```
+- The API interface returns data as ```JSON```
+- The web interface uses ```HTML```, ```JS```, and ```CSS```
 - H2 database
 ## Dependencies
 - Spring Data JPA

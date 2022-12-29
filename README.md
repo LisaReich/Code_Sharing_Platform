@@ -121,7 +121,8 @@ Response body:
 - ```GET /code/f53434a6-80b7-45ca-ac9a-5e094e9e42b5``` request
 
 Response:
-![image](https://user-images.githubusercontent.com/106676944/209927033-2e10969c-476e-4d1e-beb7-cc1eaf232224.png = 150x200)
+<img src="[http://....jpg](https://user-images.githubusercontent.com/106676944/209927033-2e10969c-476e-4d1e-beb7-cc1eaf232224.png)" width="200" height="150" />
+![image](https://user-images.githubusercontent.com/106676944/209927033-2e10969c-476e-4d1e-beb7-cc1eaf232224.png)
 
 **Example 4**    
 - ```GET /api/code/latest``` request

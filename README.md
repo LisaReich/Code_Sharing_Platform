@@ -19,8 +19,9 @@ Code_Sharing_Platform/task/src/platform/CodeSharingPlatform.java
 
 Request body: JSON object with a field code and two other fields:  
 
-  1. ```time``` field contains the time (in seconds) during which the snippet is accessible;
-  2. ```views``` field contains a number of views allowed for this snippet (excluding the current one);
+  ```time``` field contains the time (in seconds) during which the snippet is accessible;
+  
+  ```views``` field contains a number of views allowed for this snippet (excluding the current one);
 
 Note: 0 and negative values correspond to the absence of the restriction.
 
@@ -121,7 +122,7 @@ Response body:
 - ```GET /code/f53434a6-80b7-45ca-ac9a-5e094e9e42b5``` request
 
 Response:
-<img src="[http://....jpg](https://user-images.githubusercontent.com/106676944/209927033-2e10969c-476e-4d1e-beb7-cc1eaf232224.png)" width="800" height="650" />
+
 ![image](https://user-images.githubusercontent.com/106676944/209927033-2e10969c-476e-4d1e-beb7-cc1eaf232224.png)
 
 **Example 4**    
@@ -149,12 +150,14 @@ Response body:
 - ```GET /code/latest``` request
 
 Response:
+
 ![image](https://user-images.githubusercontent.com/106676944/209927188-7713d0bd-4a54-4abd-9f2f-6dd11cf2ba24.png)
 
 **Example 6**    
 - ```GET /code/new``` request
 
 Response:
+
 ![image](https://user-images.githubusercontent.com/106676944/209927242-50fb45ff-7b85-49d7-ab81-c14cfee4add6.png)
 
 ## Additional info

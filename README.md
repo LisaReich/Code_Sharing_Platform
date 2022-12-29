@@ -57,7 +57,7 @@ Request body:
 
 Response body:
 ```
-{ "id" : "7dc53df5-703e-49b3-8670-b1c468f47f1f" }
+{ "id" : "82540e2a-a1e6-442f-be93-60ed6aa45e00" }
 ```
 
 - ```POST /api/code/new``` request
@@ -73,7 +73,7 @@ Request body:
 
 Response body:
 ```
-{ "id" : "e6780274-c41c-4ab4-bde6-b32c18b4c489" }
+{ "id" : "f76299dd-424b-4fcd-8650-831249b809da" }
 ```
 
 - ```POST /api/code/new``` request
@@ -89,39 +89,39 @@ Request body:
 
 Response body:
 ```
-{ "id" : "2187c46e-03ba-4b3a-828b-963466ea348c" }
+{ "id" : "f53434a6-80b7-45ca-ac9a-5e094e9e42b5" }
 ```
 
 **Example 2**    
-- ```GET /api/code/2187c46e-03ba-4b3a-828b-963466ea348c``` request
+- ```GET /api/code/f53434a6-80b7-45ca-ac9a-5e094e9e42b5``` request
 
 Response body:
 ```
 {
     "code": "Secret code",
-    "date": "2020/05/05 12:01:45",
-    "time": 4995,
+    "date": "2022-12-29T08:48:31.571328200Z",
+    "time": 4971,
     "views": 4
 }
 ```
 
-- ```GET /api/code/2187c46e-03ba-4b3a-828b-963466ea348c``` request
+- ```GET /api/code/f53434a6-80b7-45ca-ac9a-5e094e9e42b5``` request
 
 Response body:
 ```
 {
     "code": "Secret code",
-    "date": "2020/05/05 12:01:45",
-    "time": 4991,
+    "date": "2022-12-29T08:48:31.571328200Z",
+    "time": 4920,
     "views": 3
 }
 ```
 
 **Example 3**    
-- ```GET /code/2187c46e-03ba-4b3a-828b-963466ea348c``` request
+- ```GET /code/f53434a6-80b7-45ca-ac9a-5e094e9e42b5``` request
 
 Response:
-IMAGE?
+![image](https://user-images.githubusercontent.com/106676944/209927033-2e10969c-476e-4d1e-beb7-cc1eaf232224.png)
 
 **Example 4**    
 - ```GET /api/code/latest``` request

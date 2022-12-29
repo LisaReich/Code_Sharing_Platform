@@ -121,7 +121,7 @@ Response body:
 - ```GET /code/f53434a6-80b7-45ca-ac9a-5e094e9e42b5``` request
 
 Response:
-![image](https://user-images.githubusercontent.com/106676944/209927033-2e10969c-476e-4d1e-beb7-cc1eaf232224.png)
+![image](https://user-images.githubusercontent.com/106676944/209927033-2e10969c-476e-4d1e-beb7-cc1eaf232224.png = 150x200)
 
 **Example 4**    
 - ```GET /api/code/latest``` request
@@ -131,13 +131,13 @@ Response body:
 [
     {
         "code": "public static void ...",
-        "date": "2020/05/05 12:00:43",
+        "date": "2022-12-29T08:48:14.518376Z",
         "time": 0,
         "views": 0
     },
     {
         "code": "class Code { ...",
-        "date": "2020/05/05 11:59:12",
+        "date": "2022-12-29T08:47:09.661470800Z",
         "time": 0,
         "views": 0
     }
@@ -148,13 +148,13 @@ Response body:
 - ```GET /code/latest``` request
 
 Response:
-IMAGE?
+![image](https://user-images.githubusercontent.com/106676944/209927188-7713d0bd-4a54-4abd-9f2f-6dd11cf2ba24.png)
 
 **Example 6**    
 - ```GET /code/new``` request
 
 Response:
-IMAGE?
+![image](https://user-images.githubusercontent.com/106676944/209927242-50fb45ff-7b85-49d7-ab81-c14cfee4add6.png)
 
 ## Additional info
 To find more about this project, please visit https://hyperskill.org/projects/130.

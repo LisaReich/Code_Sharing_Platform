@@ -17,8 +17,6 @@ To run the service from CMD:
    2. Launch gradle (the wrapper is already included in the project package): .\Code_Sharing_Platform gradlew run
    3. Server.port is 8889
    4. In order to test the service please use Postman REST Client (you may download it from the official: https://www.postman.com/downloads/) 
-To launch the service compile the file:  
-Code_Sharing_Platform/task/src/platform/CodeSharingPlatform.java
 ## API 
 - ```POST /api/code/new``` returns a UUID of the snippet;
 

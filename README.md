@@ -12,6 +12,11 @@ Server development on Spring Boot and some basics in Web-programming such as HTM
 - Project Lombok
 - Template engine Thymeleaf
 ## Running the project
+To run the service from CMD:
+   1. Open CMD and go to .\Code_Sharing_Platform
+   2. Launch gradle (the wrapper is already included in the project package): .\Code_Sharing_Platform gradlew run
+   3. Server.port is 8889
+   4. In order to test the service please use Postman REST Client (you may download it from the official: https://www.postman.com/downloads/) 
 To launch the service compile the file:  
 Code_Sharing_Platform/task/src/platform/CodeSharingPlatform.java
 ## API 

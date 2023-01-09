@@ -2,6 +2,7 @@ apply plugin: 'hyperskill'
 
 subprojects {
     apply plugin: 'application'
+    mainClassName = 'platform.CodeSharingPlatform'
     apply plugin: 'java'
 
     def userJava = Integer.parseInt(JavaVersion.current().getMajorVersion())

@@ -7,7 +7,6 @@ Server development on Spring Boot and some basics in Web-programming such as HTM
 - The web interface uses ```HTML```, ```JS```, and ```CSS```
 - H2 database
 ## Dependencies
-- Spring Data
 - Hibernate
 - Spring MVC 
 - Project Lombok
